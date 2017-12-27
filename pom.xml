@@ -28,7 +28,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>org.naic.se1test.MCP</mainClass>
+                            <mainClass>org.naic.hadley.test.AnagramTest</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
