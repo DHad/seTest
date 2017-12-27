@@ -5,7 +5,7 @@
 package org.naic.se1test;
 
 public class MCP {
-	private String test = "test";
+	private static String test = "test";
 
 	public static void main(String[] args) {
 
@@ -15,14 +15,13 @@ public class MCP {
 		}
 
 		// The phrase "they are equal" should display on the console
-		if (test = "test"){
+		if (test == "test"){
 			System.out.println("they are equal");
 		}
 
 		// 0 through 9 should display on the console
 		for (int i = 0; i<10; i++){
-			break;
-			System.out.println(i)
+			System.out.println(i);
 		}
 	}
 }
